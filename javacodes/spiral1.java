@@ -28,6 +28,6 @@ public class spiral1 {
                 System.out.print(a[i][j]+" ");  
             }
     System.out.println();
-     }   
+   }   
 }
 }
