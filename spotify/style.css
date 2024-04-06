@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    margin: 10px;
+    background-color: rgba(77, 90, 79, 0.855);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.left{
+  border:1px solid blue;
+}
+.home{
+    font-size: 1.2rem;
+    background-color: rgb(16, 15, 15);
+    width: 290px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.home ul{
+    list-style: none;
+}
+.playlist,.artist{
+    padding: 13px;
+    background-color: rgb(36, 35, 34);
+}
+
+.library{
+    border: 1px;
+    margin: 10px;
+    padding: 30px;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: rgb(16, 15, 15);
+    width: 250px;
+    height: 500px;
+    border-radius: 5px;
+
+}
+.lib{
+    font-size: 1rem;
+    overflow-y: auto;
+    height: 380px;
+    list-style: none;
+}
+.bigbuttons{
+    font-size: 1rem;
+    zoom: normal;
+    background-color: darkgray;
+    margin: 7px;
+    padding: 4px;
+}
+.chotu{
+    margin: 20px;
+    padding: 0px;
+}
+.lib li{
+    border: 1px solid black;
+}
+.display{
+    border: 1px solid rgb(5, 58, 19);
+    padding: 10px;
+    margin-left: 10px;
+    width: 700px;
+    background-color: rgb(20, 19, 19);
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+.displaybuttons{
+    padding: 5px;
+    margin-inline: 30px;
+    border-radius: 14px;
+
+}
+.navdisplay{
+    display: flex;
+    flex-direction: row;
+}
+.navdisplay ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.lefticons{
+    border: 1px solid purple;
+    width: 50px;
+}
+.righticons{
+    margin-left: 560px;
+    border: 1px solid maroon;
+    width: 100px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: aliceblue;
+    width: 200px;
+    border: 4px solid pink;
+}
